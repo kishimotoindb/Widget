@@ -12,7 +12,15 @@
     tools:context="com.example.root.widget.MainActivity">
 
     <TextView
+        android:id="@+id/tvNull"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Switch
+        android:id="@+id/swt_cabin_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/pic_slide"
+        android:track="@drawable/selector_switch_track_orange"/>
 </RelativeLayout>

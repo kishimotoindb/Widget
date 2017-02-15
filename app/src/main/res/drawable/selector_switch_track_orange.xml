@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--switch控件的自定义背景track选择器-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/shape_switch_bg_orange"
+        android:state_checked="true"/>
+
+    <item
+        android:drawable="@drawable/shape_switch_bg_eaeaea"/>
+</selector>
