@@ -18,6 +18,8 @@ import android.widget.TextView;
         ..../>
    选择器设置具体见selector_switch_track_orange.xml
 
+   3.checkbox自定义切换展示的图片,图片的大小 should be big as same as the size on screen.
+
 
  */
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //1.1 setText(null) 可以set null，和给空字符串“”一样
         TextView tvNull = (TextView) findViewById(R.id.tvNull);
         tvNull.setText(null);
+        findViewById(R.id.iv_checkbox).setSelected(true);
 
     }
 }
